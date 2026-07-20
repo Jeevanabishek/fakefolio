@@ -5,12 +5,12 @@
 const PROJECTS = [
   {
     title: "Cafe Sales Analytics",
-    image: "file/Executive Summary.png",
+    image: "files/Executive Summary.png",
     summary:
       "Independently built an end-to-end ETL pipeline to analyse cafe sales performance using a 2025 dataset of 10k transactions, delivering financial and operational analytics through a multi-page interactive Power BI dashboard.",
     tags: ["Excel", "Python (Pandas, NumPy)", "Jupyter Notebook", "MS SQL Server", "Power BI (DAX, Power Query)"],
     github: "https://github.com/Jeevanabishek/Cafe-Sales-Analytics",
-    dashboards: ["file/Executive Summary.png", "file/Sales & Product Performance.png", "file/Customer & Operational Insights.png"]
+    dashboards: ["files/Executive Summary.png", "files/Sales & Product Performance.png", "files/Customer & Operational Insights.png"]
   },
   {
     title: "Adidas US Sales Analytics",
@@ -41,7 +41,7 @@ function renderProjects() {
       <div class="project-links">
         <a href="${p.github}" target="_blank" rel="noopener">GitHub Repository</a>
         <button type="button" class="btn-dashboard" onclick="openLightbox(${i})">
-          Dashboard${p.dashboards.length > 1 ? ` (${p.dashboards.length})` : ""}
+          Dashboard Images
         </button>
       </div>
     </article>
