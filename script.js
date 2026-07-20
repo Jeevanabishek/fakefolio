@@ -5,21 +5,21 @@
 const PROJECTS = [
   {
     title: "Cafe Sales Analytics",
-    image: "file/Executive Summary.png",
+    image: "cafe/Executive Summary.png",
     summary:
       "Independently built an end-to-end ETL pipeline to analyse cafe sales performance using a 2025 dataset of 10k transactions, delivering financial and operational analytics through a multi-page interactive Power BI dashboard.",
     tags: ["Excel", "Python (Pandas, NumPy)", "Jupyter Notebook", "MS SQL Server", "Power BI (DAX, Power Query)"],
     github: "https://github.com/Jeevanabishek/Cafe-Sales-Analytics",
-    dashboards: ["file/Executive Summary.png", "file/Sales & Product Performance.png", "file/Customer & Operational Insights.png"]
+    dashboards: ["cafe/Executive Summary.png", "cafe/Sales & Product Performance.png", "cafe/Customer & Operational Insights.png"]
   },
   {
     title: "Adidas US Sales Analytics",
-    image: "files/NEET Dashboard.png",
+    image: "adidas/Executive Summary.png",
     summary:
       "Independently designed and executed an end-to-end analytics project using a raw Adidas US sales dataset (2020-2021) — from data discovery through ETL pipeline development to multi-page Power BI dashboard delivery.",
     tags: ["Excel", "Python (Pandas, NumPy)", "Jupyter Notebook", "MySQL", "Power BI (DAX, Power Query)"],
     github: "https://github.com/Jeevanabishek/US-Adidas-Sales-Analytics",
-    dashboards: ["files/NEET Dashboard.png"]
+     dashboards: ["adidas/Executive Summary.png", "adidas/Product & Retailer Performance.png", "adidas/Regional & Geographic Insights.png"]
   }
 ];
 
