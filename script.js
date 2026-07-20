@@ -11,8 +11,6 @@ const PROJECTS = [
     tags: ["Excel", "Python (Pandas, NumPy)", "Jupyter Notebook", "MS SQL Server", "Power BI (DAX, Power Query)"],
     github: "https://github.com/Jeevanabishek/Cafe-Sales-Analytics",
     dashboards: ["file/Executive Summary.png", "file/Sales & Product Performance.png", "file/Customer & Operational Insights.png"]
-    // Add more screenshots by pushing more paths here, e.g.:
-    // dashboards: ["files/Cafe Dashboard 1.png", "files/Cafe Dashboard 2.png"]
   },
   {
     title: "Adidas US Sales Analytics",
@@ -43,7 +41,7 @@ function renderProjects() {
       <div class="project-links">
         <a href="${p.github}" target="_blank" rel="noopener">GitHub Repository</a>
         <button type="button" class="btn-dashboard" onclick="openLightbox(${i})">
-          Dashboard Images
+          Dashboard${p.dashboards.length > 1 ? ` (${p.dashboards.length})` : ""}
         </button>
       </div>
     </article>
