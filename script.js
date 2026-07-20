@@ -43,7 +43,7 @@ function renderProjects() {
       <div class="project-links">
         <a href="${p.github}" target="_blank" rel="noopener">GitHub Repository</a>
         <button type="button" class="btn-dashboard" onclick="openLightbox(${i})">
-          Dashboard${p.dashboards.length > 1 ? ` (${p.dashboards.length})` : ""}
+          Dashboard Images${p.dashboards.length > 1 ? ` (${p.dashboards.length})` : ""}
         </button>
       </div>
     </article>
