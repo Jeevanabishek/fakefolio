@@ -5,12 +5,12 @@
 const PROJECTS = [
   {
     title: "Cafe Sales Analytics",
-    image: "files/Adidas Dashboard.png",
+    image: "file/Executive Summary.png",
     summary:
       "Independently built an end-to-end ETL pipeline to analyse cafe sales performance using a 2025 dataset of 10k transactions, delivering financial and operational analytics through a multi-page interactive Power BI dashboard.",
     tags: ["Excel", "Python (Pandas, NumPy)", "Jupyter Notebook", "MS SQL Server", "Power BI (DAX, Power Query)"],
     github: "https://github.com/Jeevanabishek/Cafe-Sales-Analytics",
-    dashboards: ["files/Adidas Dashboard.png"]
+    dashboards: ["file/Executive Summary.png", "file/Sales & Product Performance.png", "file/Customer & Operational Insights.png"]
     // Add more screenshots by pushing more paths here, e.g.:
     // dashboards: ["files/Cafe Dashboard 1.png", "files/Cafe Dashboard 2.png"]
   },
