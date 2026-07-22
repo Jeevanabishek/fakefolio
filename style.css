@@ -199,6 +199,7 @@ section { padding: 72px 0; }
   gap: 8px;
 }
 .role-line span:first-child { color: var(--signal); }
+.typed-role { min-width: 0; } 
 
 .hero-copy {
   color: var(--muted);
