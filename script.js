@@ -156,13 +156,14 @@ $(document).ready(function () {
   // Typed.js role cycler (falls back to static text if the library fails to load)
   if (window.Typed) {
     new Typed("#typedRole", {
-      strings: ["Python &amp; SQL",
-                "Power BI &amp; Excel","Extract, Transform & Load (ETL) &amp; Data Cleaning ",
+      strings: ["Python & SQL",
+                "Power BI & Excel","Extract, Transform & Load (ETL) & Data Cleaning ",
                 "Exploratory Data Analysis (EDA)",
                 "Dashboard Development",
                 "Data Storytelling"],
-      startDelay: 750,
-      typeSpeed: 45,
+      contentType: 'null',
+      startDelay: 1000,
+      typeSpeed: 30,
       backSpeed: 25,
       backDelay: 1400,
       loop: true,
